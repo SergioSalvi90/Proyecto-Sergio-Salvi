@@ -13,10 +13,12 @@ header{
 
 h1{ 
     color: whitesmoke;
-    text-decoration: underline;
+    text-decoration: none;
     font-family:;
 }
-
+h2 { 
+    color: black;
+}
 
 
 
@@ -71,23 +73,8 @@ body{
     } 
     
     
-    footer{ 
-        background-color: #696969;
-        min-height: 200px;
-        justify-content: center;
-        flex-direction: column;
-        display: flex;
-    }
+   
     
-
-    footer p {
-        color: black;
-        text-align: center;
-        justify-content: center;
-        text-decoration: underline;
-       
-        
-    }
 
 #iconos {
     text-align: center;
@@ -120,7 +107,22 @@ body{
 
 
 
+footer{ 
+    background-color: #696969;
+    min-height: 200px;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
 
+
+footer p {
+    color: black;
+    text-align: center;
+    justify-content: center;
+    text-decoration: underline;
+}
+    
 
 
 
