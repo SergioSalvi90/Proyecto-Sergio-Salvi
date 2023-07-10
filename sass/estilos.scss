@@ -1,0 +1,155 @@
+
+
+
+// Header
+header {
+    background-color: #696969;
+
+  }
+  
+  // H1
+  h1 {
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  // H2
+  h2 {
+    color: black;
+  }
+  
+  // Body
+  body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    background-color: #fffaf0;
+  
+  
+  // Menu
+  #menu li > a {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+  }
+  
+  #menu form > button {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  // Carousel
+  .carousel-inner {
+    max-height: 25rem;
+  }
+  
+  // Main
+  .main.contacto {
+    text-align: center;
+    margin: 20px;
+    font-weight: bold;
+  }
+  
+  .main.reservas {
+    text-align: center;
+    margin: 20px;
+    font-weight: bold;
+  }
+  
+  // Iconos
+  #iconos {
+    text-align: center;
+    justify-content: center;
+  }
+  
+  i {
+    font-size: 25px;
+    padding: 0 8px;
+    color: black;
+  }
+  
+  // Formulario
+  .formulario {
+    width: 50%;
+  }
+  
+  // Avatar
+  .avatr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  // Footer
+  footer {
+    background-color: #696969;
+    min-height: 200px;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    p {
+        color: black;
+        text-align: center;
+        text-decoration: underline;
+      }
+      
+
+}
+
+}
+
+a.navbar-brand {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+h1.mt-2.mb-0.p-2.fs5.titulo_header {
+  color: #000;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+// Animacion css
+button.navbar-toggler:hover {
+  background-color: #efd75d !important;
+  transform: scale(0.8) !important;
+}
+
+// Partials
+
+@import "media-queries";
+
+#intro {
+  width: 100%; 
+  
+  @include media-query($breakpoint-sm) {
+    width: 90% !important;
+  }
+}
+
+img.menu_image {
+  margin: 0; 
+  
+  @include media-query($breakpoint-xs) {
+    margin: 10px !important;
+  }
+}
+
+header.container-fluid.d-flex.justify-content-center {
+  flex-wrap: nowrap; 
+  
+  @include media-query($breakpoint-xs) {
+    flex-wrap: wrap !important;
+  }
+}
+
+@include media-query($breakpoint-xs) {
+  h1.mt-2.mb-0.p-2.fs5.titulo_header {
+    font-size: 0.7rem;
+  }
+}
+
+
+

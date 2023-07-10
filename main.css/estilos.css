@@ -1,0 +1,110 @@
+header {
+  background-color: #696969;
+}
+
+h1 {
+  color: whitesmoke;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  color: black;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+  background-color: #fffaf0;
+}
+body #menu li > a {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  text-decoration: underline;
+}
+body #menu form > button {
+  font-size: 18px;
+  font-weight: bold;
+}
+body .carousel-inner {
+  max-height: 25rem;
+}
+body .main.contacto {
+  text-align: center;
+  margin: 20px;
+  font-weight: bold;
+}
+body .main.reservas {
+  text-align: center;
+  margin: 20px;
+  font-weight: bold;
+}
+body #iconos {
+  text-align: center;
+  justify-content: center;
+}
+body i {
+  font-size: 25px;
+  padding: 0 8px;
+  color: black;
+}
+body .formulario {
+  width: 50%;
+}
+body .avatr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body footer {
+  background-color: #696969;
+  min-height: 200px;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+body footer p {
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/*Media Queries*/
+@media (max-width: 768px) {
+  #intro {
+    width: 90% !important;
+  }
+}
+
+@media (max-width: 600px) {
+  img.menu_image {
+      margin:10px 10px !important;
+}
+header.container-fluid.d-flex.justify-content-center {
+  flex-wrap: wrap  !important;
+}
+h1.mt-2.mb-0.p-2.fs5.titulo_header {
+  font-size: 0.7rem !important;
+}
+}
+/*Animacion css*/
+button.navbar-toggler:hover {
+  background-color: #efd75d !important;
+  transform: scale(0.8) !important;
+}
+
+a.navbar-brand {
+  display: flex;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+h1.mt-2.mb-0.p-2.fs5.titulo_header {
+  color: #000;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=estilos.css.map */
