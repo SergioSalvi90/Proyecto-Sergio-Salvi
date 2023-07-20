@@ -51,6 +51,8 @@ body i {
 }
 body .formulario {
   width: 50%;
+  justify-content: center;
+  text-align: center;
 }
 body .avatr {
   display: flex;
@@ -70,41 +72,55 @@ body footer p {
   text-decoration: underline;
 }
 
-/*Media Queries*/
+a.navbar-brand {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+h1.mt-2.mb-0.p-2.fs5.titulo_header {
+  color: #000;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+button.navbar-toggler:hover {
+  background-color: #efd75d !important;
+  transform: scale(0.8) !important;
+}
+
+#intro {
+  width: 100%;
+}
 @media (max-width: 768px) {
   #intro {
     width: 90% !important;
   }
 }
 
+img.menu_image {
+  margin: 0;
+}
 @media (max-width: 600px) {
   img.menu_image {
-      margin:10px 10px !important;
-}
-header.container-fluid.d-flex.justify-content-center {
-  flex-wrap: wrap  !important;
-}
-h1.mt-2.mb-0.p-2.fs5.titulo_header {
-  font-size: 0.7rem !important;
-}
-}
-/*Animacion css*/
-button.navbar-toggler:hover {
-  background-color: #efd75d !important;
-  transform: scale(0.8) !important;
+    margin: 10px !important;
+  }
 }
 
-a.navbar-brand {
-  display: flex;
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
+header.container-fluid.d-flex.justify-content-center {
+  flex-wrap: nowrap;
 }
-h1.mt-2.mb-0.p-2.fs5.titulo_header {
-  color: #000;
-  font-size: 1.6rem;
-  font-weight: 600;
+@media (max-width: 600px) {
+  header.container-fluid.d-flex.justify-content-center {
+    flex-wrap: wrap !important;
+  }
+}
+
+@media (max-width: 600px) {
+  h1.mt-2.mb-0.p-2.fs5.titulo_header {
+    font-size: 0.7rem;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
