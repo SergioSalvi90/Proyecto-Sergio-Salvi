@@ -53,6 +53,7 @@ body .formulario {
   width: 50%;
   justify-content: center;
   text-align: center;
+  display: flex;
 }
 body .avatr {
   display: flex;
